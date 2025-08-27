@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #004080;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background: #004080;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #004080;
+        }
+
+        .staff,
+        .alumni,
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            background: #f9f9f9;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to GSSS Mansha</h1>
+        <p>Learning • Growth • Excellence</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#staff">Staff</a></li>
+            <li><a href="#alumni">Alumni</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>About Our School</h2>
+        <p>Our school is dedicated to providing quality education and fostering the holistic development of every student. We place
+        equal emphasis on academic excellence, character building, and extracurricular engagement to ensure that learners grow
+        into well-rounded individuals. Beyond academics, we encourage participation in sports, arts, and leadership activities
+        that nurture creativity, confidence, and teamwork. Our strong alumni network serves as a source of inspiration and
+        guidance, reflecting the lifelong values and skills our students carry with them. Through a balanced approach to
+        learning and personal growth, we strive to prepare our students not only for academic success but also for meaningful
+        contributions to society.</p>
+        <hr style="margin-top: 2%;">
+    </section>
+
+    <section id="staff">
+        <h2>Our Staff</h2>
+        <div class="staff">
+            <div class="card">
+                <img src="./images/koushal.png" alt="Img" style="width:120px; height:120px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mrs. Kaushal Shringi </h3>
+                <p>Principal</p>
+            </div>
+            <div class="card">
+                <img src="./images/rp_meena.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Ramprashad Meena</h3>
+                <p>Vice Principal</p>
+            </div>
+            <div class="card">
+                <img src="./images/balram.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Balram Choudhary</h3>
+                <p>Lecturer Political Science</p>
+            </div>
+            <div class="card">
+                <img src="./images/babulal.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Babulal Gurjar</h3>
+                <p>Lecturer Hindi</p>
+            </div>
+            <div class="card">
+                <img src="./images/bhagirath.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Bhagirath mal Meena</h3>
+                <p>Senior Teacher Science</p>
+            </div>
+            <div class="card">
+                <img src="./images/rajendra.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Rajendra Vaishnav</h3>
+                <p>Senior Teacher Math</p>
+            </div>
+            <div class="card">
+                <img src="./images/mahaveer.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Mahaveer Kumar Nai</h3>
+                <p>Senior Teacher Sanskrit</p>
+            </div>
+            <div class="card">
+                <img src="./images/suman.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mrs. Suman Vairagi</h3>
+                <p>Teacher L-2 Hindi</p>
+            </div>
+            <div class="card">
+                <img src="./images/ladulal.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Ladu Lal Jat</h3>
+                <p>Teacher L-2 Science</p>
+            </div>
+            <div class="card">
+                <img src="./images/neelam.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mrs. Neelam Vaishnav</h3>
+                <p>Teacher L-1</p>
+            </div>
+            <div class="card">
+                <img src="./images/munni.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mrs. Munni Jeengar</h3>
+                <p>Teacher L-1</p>
+            </div>
+            <div class="card">
+                <img src="./images/kamlesh.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Kamlesh Kumar Jat</h3>
+                <p>Teacher L-1</p>
+            </div>
+            <div class="card">
+                <img src="./images/motilal.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Motilal Gurjar</h3>
+                <p>Teacher L-1</p>
+            </div>
+            <div class="card">
+                <img src="./images/lokesh.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Lokesh Khateek</h3>
+                <p>Teacher L-1</p>
+            </div>
+            <div class="card">
+                <img src="./images/anju.png" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mrs. Anju Kumari </h3>
+                <p>LDC</p>
+            </div>
+            <div class="card">
+                <img src="./images/Tusar.jpg" alt="Img" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;">
+                <h3>Mr. Tusar Choudhary</h3>
+                <p>Bacis Computer Instructor</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="alumni">
+        <h2>Honored Alumnus</h2>
+        <div class="gallery">
+            <img src="./images/last_year_toppers.jpg" alt="result">
+        </div>
+        <!-- <div class="alumni">
+            <div class="card">
+                <h3>Kamlesh Jat</h3>
+                <p>12th : 92.20 %</p>
+            </div>
+            <div class="card">
+                <h3>Bhairu Mali</h3>
+                <p>12th : 88 %.</p>
+            </div>
+            <div class="card">
+                <h3>Krishna Jat</h3>
+                <p>10th : 74 %.</p>
+            </div>
+        </div> -->
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200" alt="School Event">
+            <img src="https://via.placeholder.com/300x200" alt="Classroom">
+            <img src="https://via.placeholder.com/300x200" alt="Sports">
+        </div>
+    </section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Bus Stand, Mansha, Kotdi, Bhilwara (311603), Rajasthan</p>
+    <p><strong>Email:</strong> gssmansha@gmail.com</p>
+    <p><strong>Phone:</strong> +91 9079857902</p>
+<a href="https://youtube.com/playlist?list=PL6Gdabm-HSTaFYNCCt55fGe4sTV0Rsn3a&si=aBlORUdV4YGWQo6y   " target="_blank">
+    Visit our YouTube Channel
+</a>
+    <h3>Find Us on Google Maps</h3>
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d480.03115334898456!2d74.94277055158524!3d25.405293469671378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968cddaa6a4a9f7%3A0xdcfcdd5895760e82!2sG.h.s.s.Mansha!5e0!3m2!1sen!2sin!4v1755709660046!5m2!1sen!2sin"
+   width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   
+    
+</section>
+
+
+    <footer>
+        <p>&copy; 2025 GSSS Mansha. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
